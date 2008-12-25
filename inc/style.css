@@ -1,0 +1,59 @@
+body, p, td, pre
+	{
+	color : #000000;
+	font-family: monospace, sans-serif;
+	font-size: 12px; 
+	line-height: 130%;
+	}
+
+img {
+	margin: 2px;
+	border: 1px solid black;
+}
+
+a
+	{
+	color : #0000ff;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+a:hover 
+	{
+	text-decoration: underline;
+	}
+
+.post
+	{
+	width: 590px;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 10px;
+	}
+
+.black
+	{
+	color: #000000;
+	}
+
+.darkgray
+	{
+	color: #808080;
+	}
+
+.lightgray
+	{
+	color: #a0a0a0;
+	}
+
+.selected
+	{
+	background: #ffffa0;
+	}
+
+.builtin { color: darkblue; }
+.comment { color: green; }
+.const { color: darkblue; }
+.kw { color: orange; }
+.stderr { color: red; }
+.val { color: blue; }
